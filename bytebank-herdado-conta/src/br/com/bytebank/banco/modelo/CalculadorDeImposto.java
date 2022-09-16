@@ -1,5 +1,7 @@
-package modelo; 
+package br.com.bytebank.banco.modelo; 
 
+
+//br.com.bytebank.banco.modelo.CalculadorDeImposto
 public class CalculadorDeImposto {
 	
 	private double totalImposto;
