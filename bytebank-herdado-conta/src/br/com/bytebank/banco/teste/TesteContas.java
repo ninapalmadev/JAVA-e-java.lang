@@ -1,5 +1,6 @@
 package br.com.bytebank.banco.teste;
 
+import br.com.bytebank.banco.especial.ContaEspecial;
 import br.com.bytebank.banco.modelo.ContaCorrente;
 import br.com.bytebank.banco.modelo.ContaPoupanca;
 import br.com.bytebank.banco.modelo.SaldoInsuficienteException;
@@ -10,6 +11,9 @@ public class TesteContas {
 		// FQN Full Qualified name		
 		ContaCorrente cc = new ContaCorrente(111, 111);
 		cc.deposita(100.0);
+		
+		ContaEspecial ce = new ContaEspecial(1313, 3131);
+		
 		
 		ContaPoupanca cp = new ContaPoupanca(222, 222);
 		cp.deposita(200.0);
